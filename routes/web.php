@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\tabelmahasiswa;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('Dashboard');
 });
+
+Route::get('/tabel-mahasiswa', [tabelmahasiswa::class, 'tabelmahasiswa'])->name('tabelmahasiswa');
