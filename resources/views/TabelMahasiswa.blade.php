@@ -71,18 +71,6 @@
     </body>
 
     <body>
-    <div class="container text-center">
-  <div class="row">
-    <div class="">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-    <div class="col">
-      Column
-    </div>
-  </div>
-</div>
+        
     </body>
 </body>
